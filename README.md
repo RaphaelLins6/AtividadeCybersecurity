@@ -39,3 +39,16 @@ Apresente soluções para os seguintes problemas reais simples:
 - [@RaphaelLins6](https://www.github.com/RaphaelLins6) - Raphael Lins (RGM:27797660)
 - [@jotape99](https://www.github.com/jotape99) - João Pedro (RGM:28167333)
 - [@joaogkt](https://www.github.com/joaogkt) - João Gabriel (RGM:28017188)
+
+---
+
+## Referências
+
+1. **OWASP Foundation** - [OWASP Top Ten](https://owasp.org/www-project-top-ten/)  
+   Guia essencial para entender os principais riscos de segurança em aplicações e como mitigá-los.
+
+2. **Bruce Schneier** - *Applied Cryptography: Protocols, Algorithms, and Source Code in C*  
+   Livro clássico sobre criptografia e segurança digital, abordando técnicas e algoritmos amplamente utilizados.
+
+3. **Kaspersky** - [Guia de Segurança Digital](https://www.kaspersky.com/resource-center)  
+   Recursos e artigos sobre práticas recomendadas para proteger redes e sistemas contra ameaças cibernéticas.
