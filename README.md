@@ -17,7 +17,7 @@ Apresente soluções para os seguintes problemas reais simples:
 1. **Criar um programa para calcular senhas seguras.**  
    Desenvolva um algoritmo que gere senhas aleatórias com critérios de segurança, como comprimento mínimo, uso de caracteres especiais e números.
 
-2. **Desenvolver um algoritmo para analisar dados de segurança em uma rede.**  
+2. **Desenvolver um algoritmo para analisar pacotes de dados de segurança em uma rede.**  
    Desenvolver um algoritmo para analisar dados de segurança em uma rede.
 
 ---
