@@ -31,12 +31,19 @@
                                 <input type="email" name="email" class="form-control" required>
                             </div>
                             <div class="mb-3">
+                                <label class="form-label">Gerar Senha Segura</label>
+                                <div class="input-group">
+                                    <input type="text" id="generatedPassword" class="form-control" readonly placeholder="Clique em Gerar Senha">
+                                    <button class="btn btn-outline-secondary" type="button" onclick="generatePassword()">Gerar Senha</button>
+                                </div>
+                            </div>
+                            <div class="mb-3">
                                 <label class="form-label">Senha</label>
-                                <input type="password" name="password" class="form-control" required>
+                                <input type="password" id="password" name="password" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Confirme a Senha</label>
-                                <input type="password" name="password2" class="form-control" required>
+                                <input type="password" id="password2" name="password2" class="form-control" required>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Registrar</button>
                         </form>
@@ -48,5 +55,17 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function generatePassword() {
+            const caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()";
+            let senha = "";
+            for (let i = 0; i < 10; i++) {
+                senha += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+            }
+            document.getElementById('generatedPassword').value = senha;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -7,6 +7,15 @@ from django.core.cache import cache
 from django.utils import timezone
 import datetime
 from django.contrib.auth.decorators import login_required
+import random
+
+def gerador_de_senhas():
+    caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()"
+    senha = ""
+
+    for i in range(10):
+        senha += caracteres[random.randint(0, len(caracteres) - 1)]
+    return senha
 
 def register_view(request):
     if request.method == "POST":
